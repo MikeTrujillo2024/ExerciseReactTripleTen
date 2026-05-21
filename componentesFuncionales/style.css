@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+/*estos stilos seran sustitudios por los nestilos de ".animal*/
+.giraffe, .hedgehog, .skunk {
+  display: flex;
+}
+
+/* esta clase debemos sustituira a los estilos de arriba ".giraffe, .hedgehog, .skunk" */
+.animal {
+  display: flex;
+}
+.icon {
+  font-size: 80px;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
