@@ -1,0 +1,20 @@
+html, body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 20px;
+  background: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333333;
+}
+
+body.with-bg {
+  background: url(https://practicum-content.s3.us-west-1.amazonaws.com/web-code/moved_mountain.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
+}
