@@ -1,5 +1,9 @@
 function Boxing() {
- const [setIsKnockout, isKnockout ] = React.useState();
+  /***
+   * const[valor del estado actual, funcion setter] = nombre del hook
+   */
+ const [isKnockout ,setIsKnockout  ] = React.useState();
+
 
   function handleClick() {
     setIsKnockout(true);

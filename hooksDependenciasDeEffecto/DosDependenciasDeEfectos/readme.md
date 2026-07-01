@@ -1,0 +1,1 @@
+Existe un efecto que debe mostrar el tiempo en un popup (ventana emergente) cada vez que cambie la variable minutes. Trata de encontrar el problema y soluciónalo.

@@ -1,6 +1,7 @@
 /* ----> este es un componente funcional<---- */
 
 function Switch(props){
+  /* console.log(props.isActive) */
     const [isActive, setIsActive] = React.useState(false);
 
     function handleClick(){
@@ -8,7 +9,7 @@ function Switch(props){
     }
 
     const className = `switch ${props.color} ${isActive ? 'on' : 'off'}`;
-
+console.log(isActive)
     return (
       <div className={className}>
         <button className="img" onClick={handleClick} />
@@ -19,7 +20,7 @@ function Switch(props){
 
 
 ReactDOM.render((
-  <Switch title="Happy" color="blue" isActive={false} />
+  <Switch title="Happy" color="blue" isActive={true} />
 ), document.querySelector('#rootTarea2'));
 
 
