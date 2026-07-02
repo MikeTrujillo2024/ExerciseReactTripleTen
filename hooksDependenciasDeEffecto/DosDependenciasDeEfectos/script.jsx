@@ -18,7 +18,7 @@ function Time() {
     if (typeof hours === 'number' && typeof minutes === 'number') {
       alert(`${hours}:${minutes}`);
     }
-  }, [hours]);
+  }, [hours, minutes]);
 
   return (
     <h2>{hours}:{minutes}:{seconds}:{milliseconds}</h2>

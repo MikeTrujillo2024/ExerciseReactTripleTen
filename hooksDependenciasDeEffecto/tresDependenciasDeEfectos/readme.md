@@ -1,0 +1,3 @@
+A veces, tan solo querrás que un efecto se active una vez, como cuando se monta un componente. Vamos a celebrar este momento tan significativo del montaje de un componente con un sonido apropiado. La carpeta sound ya contiene el archivo necesario — gong.mp3.
+
+--Agrega otro efecto con un array de dependencias vacío, que garantizará que se le llame una sola vez. Llama a la función playSound() dentro del efecto.--

@@ -12,3 +12,8 @@ los archivos como los he tomado son en la siguiente secuencia
     5.3--hooksOperadorSpread
 6-- hooks Effects
 7-- hooks Dependencias de effecto
+    7.1--AUnodependenciasDeEfecto
+    7.2--DosDependenciasDeEfectos
+    7.3--tresDependenciasDeEfectos
+    7.4--CuatroDependenciasDeEfectos
+    
